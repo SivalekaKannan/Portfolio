@@ -1,0 +1,169 @@
+* {
+    font-family: "Roboto", sans-serif;
+}  
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #c4b723;
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+.box{
+    height: 25px;
+    width: 80px;
+    color: #c4b723;
+    padding-left: 10px;
+    padding-top: 6px;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    background: #1f1f1f;
+    padding: 100px;
+    color: white;
+}
+
+.content .side {
+    flex: 1; 
+    margin-right: 50px; 
+}
+
+.main {
+    flex: 1; 
+}
+
+
+h3 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+hr {
+    margin: 20px 0;
+    border-color: #4d5454;
+    height: 5px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact .icon {
+    border-radius: 50%;
+    background-color: #c4b723;
+    color: #4d5454;
+    margin-right: 15px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.sp {
+    margin-top: 18px;
+    position: relative;
+    width: 150px;
+    height: 10px;
+    border: 2px solid #c4b723;
+    border-radius: 10px;
+}
+#pl, #lt, #ps, #team{
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background: #c4b723;
+}
+
+#pl{
+    width: 65%;
+}
+#lt{
+    width: 60%;
+}
+#ps, #team{
+    width: 70%;
+}
+.hobbies{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 80%;
+}
+.icon{
+    color: #c4b723;
+    font-size: 20px;
+    margin-right: 10px;
+}
+span{
+    color: #c4b723;
+}
+.C{
+    font-size: larger;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.p{
+    margin-left: 15px;
+}
+section{
+    background-color: #1f1f1f;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+.btn{
+    background-color: #c4b723;
+    color:#1f1f1f;
+    margin-left: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #1f1f1f;
+    color: #c4b723;
+}
+footer{
+    margin: 0;
+    background-color: #c4b723;
+    padding: 15px;
+}
